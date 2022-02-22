@@ -12,5 +12,4 @@ python main.py --log_file localhost-1645562326908.log --log_file localhost-16455
 
 Open dev console, right click and "Save as..."
 
-![image](https://user-images.githubusercontent.com/29048245/155228918-28de4af2-a3d7-4e7e-bb65-b4baa3cbf52f.png)
-
+![image](https://user-images.githubusercontent.com/29048245/155230226-d4bbdc7d-68c3-4d3b-a889-19b0518b5351.png)
