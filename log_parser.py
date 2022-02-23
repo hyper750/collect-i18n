@@ -14,7 +14,8 @@ class I18NLogParser:
             print(f'File {log_file} not found')
             return keys
 
-        key_pattern = re.compile(r"'([^']+)'")
+        # Value of key 'KEY' is not a string or function
+        key_pattern = re.compile(r"Value of key '([^']+)' is not a string or function")
 
         with open(log_file, 'r') as f:
             for line in f.readlines():
