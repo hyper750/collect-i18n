@@ -39,6 +39,7 @@ class I18NLogParser:
                 lang_file_keys = json.load(open(lang_file, 'r'))
 
             for key in keys:
-                lang_file_keys[key] = ''
+                if key not in lang_file_keys:
+                    lang_file_keys[key] = ''
 
-            json.dump(lang_file_keys, open(lang_file, 'w'), indent=4)
+            json.dump(lang_file_keys, open(lang_file, 'w'), indent=4, ensure_ascii=False)
